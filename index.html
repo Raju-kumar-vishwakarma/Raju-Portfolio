@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raju - Portfolio website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+      }
+
+      nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(7, 7, 77);
+        
+      }
+
+      nav ul{
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        list-style: none;
+        margin: 0 23px ;
+        font-size: 1.19rem;
+      }
+      nav ul li a{
+        margin-top: 5px;
+        color: white;
+        text-decoration: none;
+      }
+    
+      .left{
+        color: white;
+      }
+      .left a img{
+        text-decoration: none;
+        color: white;
+        margin-top: 5px;
+      }
+
+      .firstsection{
+        display: flex;
+        justify-content: space-around;
+        margin: 110px 0;
+      }
+
+      .firstsection >div{
+        /* width: 0%; */
+      }
+
+      .leftSection{
+        width: 45%;
+        font-size: 3rem;
+        margin: 30px 0;
+        font-weight: 400;
+        /* margin-top: 50px; */
+        
+      
+      }
+      .rightSection{
+        width: 35%;
+      }
+      .rightSection img{
+        width: 90%;
+      }
+
+      .purple{
+        color: blueviolet;
+        font-weight: bolder;
+      }
+
+    .social-icons a{
+      max-width: 20%;;
+      position: relative;
+      word-wrap: normal;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 4rem;
+      height: 4rem;
+      border: 0.2rem solid #ffffff;
+      font-size: 2rem;
+      border-radius: 50%;
+      margin: 7rem 2.5rem 14rem 0;
+      transition: 0.3s ease;
+      color: blueviolet; 
+      text-decoration: none;
+  }
+
+  .social-icons a:hover{
+    color: rgb(0, 0, 0);
+    transform: scale(1.3) translateY(-5px);
+    background-color: #f4f0f0b9;
+    box-shadow: 0  0 25px blueviolet;
+  }
+
+  #element{
+    color: blueviolet;
+    font-weight: bolder;
+  }
+  
+  .secondSection{
+    max-width: 80vh;
+    margin: 0 100px;
+    height: 80vh;
+    
+  }
+
+  main hr{
+    height: 0.5px;
+    border: 0;
+    background: #938ec7;
+    margin: 40px 84px;
+  }
+
+  .text-color{
+    color: gray;
+  }
+
+  /* second section  */
+
+
+  .secondSection .box{
+    width: 80vw;
+    background: white;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+  }
+
+  .secondSection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 90px;
+  }
+  .img-top{
+    width: 23px;
+    top: -32px;
+    left: -9px;
+    position: relative;
+  }
+  .vertical-title{
+    left: -1px;
+    position: relative;
+    top: 66px;
+    width: 150px;
+  }
+
+  .vertical-desc{
+    left: -2px;
+    top: 73px;
+    position: relative;
+    width: 150px;
+    font-size:9px;
+    color: gray;
+  }
+
+
+
+
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">
+            <a href="/"><img src="raju_logo.svg" ></a>
+        </div>
+
+        <div class="right">
+           <ul>
+           <li ><a href=""> Home     </a> </li>
+           <li ><a href="#Experienc"> Experienc</a> </li>
+           <!-- <li ><a href="/"> Services </a> </li> -->
+           <li ><a href="#Skills"> Skills   </a> </li>
+           <li ><a href="#Education"> Education</a> <lia>
+           <li ><a href="#Education"> Education  </a>  </li>
+           </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstsection" >
+        <div class="leftSection">
+          Hii, My Name is <span class="purple">Raju</span>
+          <div>
+            And I'M a <span id="element"></span>
+          </div>
+          <div class="social-icons">
+            <a href="/"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="/"><i class="fa-brands fa-github"></i></a>
+              <a href="/"><i class="fa-brands fa-instagram"></i></a>
+              <a href="/"><i class="fa-brands fa-telegram"></i></a></div>
+        </div>
+        </div>
+        <div class="rightSection">
+          <img src="bg.png" alt="">
+        </div>  
+       
+    </section>
+    <hr>
+    <section class="secondSection" id="Experienc">
+      <span class="text-gray">What I have done so far</span>
+      <h1>Past Experienc</h1>
+      <div class="box">
+        <div class="vertical">
+          <img src="html logo.png" class="img-top" alt="">
+          <div class="vertical-title">
+            HTML Developer (2024-20XX)
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam vero, dignissimos rem hic esse quas. 
+          </div>
+        </div>
+        <div class="vertical">
+          <img src="html logo.png" class="img-top" alt="">
+          <div class="vertical-title">
+            HTML Developer (2024-20XX)
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam vero, dignissimos rem hic esse quas. 
+          </div>
+        </div>
+        <div class="vertical">
+          <img src="html logo.png" class="img-top" alt="">
+          <div class="vertical-title">
+            HTML Developer (2024-20XX)
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam vero, dignissimos rem hic esse quas. 
+          </div>
+        </div>
+        <div class="vertical">
+          <img src="html logo.png" class="img-top" alt="">
+          <div class="vertical-title">
+            HTML Developer (2024-20XX)
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam vero, dignissimos rem hic esse quas. 
+          </div>
+        </div>
+        <div class="vertical">
+          <img src="html logo.png" class="img-top" alt="">
+          <div class="vertical-title">
+            HTML Developer (2024-20XX)
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam vero, dignissimos rem hic esse quas. 
+          </div>
+        </div>
+        <div class="vertical">
+          <img src="html logo.png" class="img-top" alt="">
+          <div class="vertical-title">
+            HTML Developer (2024-20XX)
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam vero, dignissimos rem hic esse quas. 
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    </main>
+
+
+
+
+
+
+
+
+
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+   <script>
+    var typed = new Typed('#element', {
+      strings: ['<i>Gamer</i>.','UI UX Designer.',' Web Developer.'],
+      typeSpeed: 90,
+    });
+  </script>
+
+  </body>
+</html>
